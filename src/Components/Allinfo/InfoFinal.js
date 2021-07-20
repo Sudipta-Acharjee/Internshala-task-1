@@ -7,13 +7,13 @@ const InfoFinal = ({ house }) => {
         <div className="row">
             <div className="column">
                 <div className="card houseCart container">
-                    
                         <img src={Image} alt="Avatar" class="image"/>
                         <div class="middle">
                             <div class="text"><button>Details</button></div>
                         </div>
                     <div>
                         <h2>{Name}</h2>
+                        <p>{Location}</p>
                     </div>
                 </div>
             </div>

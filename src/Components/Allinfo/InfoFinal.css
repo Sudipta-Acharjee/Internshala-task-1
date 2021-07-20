@@ -3,11 +3,14 @@
     padding-top: 5px;
     border-radius: 5px;
     border: 1px solid lightgray;
-    height: 400px;
+    height: 410px;
     margin-right: 5px;
     
 }
 .houseCart h2{
+    text-align: center;
+}
+p{
     text-align: center;
 }
 

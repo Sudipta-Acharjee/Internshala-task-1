@@ -1,5 +1,6 @@
 import React from 'react';
 import Allinfo from '../Allinfo/Allinfo';
+import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
 const Fullpage = () => {
@@ -11,6 +12,9 @@ const Fullpage = () => {
             <body>
                 <Allinfo/>
             </body>
+            <footer>
+                <Footer/>
+            </footer>
         </div>
     );
 };
