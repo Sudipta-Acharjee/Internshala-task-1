@@ -9,7 +9,7 @@ const InfoFinal = ({ house }) => {
                 <div className="card houseCart container">
                         <img src={Image} alt="Avatar" class="image"/>
                         <div class="middle">
-                            <div class="text"><button>Details</button></div>
+                            <div class="text">Click on Image</div>
                         </div>
                     <div>
                         <h2>{Name}</h2>
