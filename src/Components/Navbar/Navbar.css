@@ -1,0 +1,14 @@
+.image > img {
+  height: 70px;
+  width: 70px;
+  
+}
+.image{
+    background-color: cyan;
+    text-align: center;
+    
+}
+.image>h2{
+    color:coral;
+    text-align: center;
+}
