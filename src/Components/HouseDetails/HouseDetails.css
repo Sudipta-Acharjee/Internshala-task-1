@@ -1,0 +1,18 @@
+.control{
+    text-align: center;
+    margin-top: 45px;
+    border: 2px solid lightcoral;
+    width:90%;
+    height:560px;
+    margin-left: 60px;
+}
+.diff{
+    margin-top: 50px;
+}
+.diff1{
+    margin-top: 80px;
+}
+/* .image-crop{
+    width:500px;
+    height: 500px;
+} */

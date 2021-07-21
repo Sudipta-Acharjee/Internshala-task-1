@@ -9,7 +9,7 @@ const Allinfo = () => {
     return (
         <div>
             <div>
-                <h2 style={{color:"blue","text-align":"center"}}>Apertment Details</h2>
+                <h2 style={{color:"blue","text-align":"center","margin-top":"60px"}}></h2>
             </div>
             <div>
                 {

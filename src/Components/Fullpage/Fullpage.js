@@ -10,11 +10,11 @@ const Fullpage = () => {
                 <Navbar></Navbar>
             </header>
             <body>
-                <Allinfo/>
+                <Allinfo />
             </body>
-            <footer>
-                <Footer/>
-            </footer>
+            <div>
+                <Footer />
+            </div>
         </div>
     );
 };
