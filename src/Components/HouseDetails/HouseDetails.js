@@ -7,6 +7,8 @@ import HomeWorkIcon from '@material-ui/icons/HomeWork';
 import StarHalfIcon from '@material-ui/icons/StarHalf';
 import AspectRatioIcon from '@material-ui/icons/AspectRatio';
 import PhoneInTalkIcon from '@material-ui/icons/PhoneInTalk';
+import { Counter } from './Counter';
+
 
 const HouseDetails = () => {
     const { id } = useParams();
@@ -24,11 +26,11 @@ const HouseDetails = () => {
                     <img className="image-crop" src={details[id].Image} alt="Picture"></img>
                 </div>
                 <div className="col-md-5 diff1">
-                    <h3><HomeWorkIcon/> {details[id].Name}</h3>
-                    <p>Review: <StarHalfIcon/> {details[id].review}</p>
-                    <h5>Rent: ${details[id].Rent}</h5>
-                    <h5>Area: {details[id].Area} <AspectRatioIcon/></h5>
-                    <button>Contact: <PhoneInTalkIcon/> {details[id].Contact}</button>
+                    <h3><HomeWorkIcon /> {details[id].Name}</h3>
+                    <h5> Rent: ${details[id].Rent}</h5>
+                    <button>Contact: <PhoneInTalkIcon /> {details[id].Contact}</button>
+                    <h5>Area: {details[id].Area} <AspectRatioIcon /></h5>
+                    <p>Review: <Counter/><StarHalfIcon /> </p>
                 </div>
             </div>
         </section>
